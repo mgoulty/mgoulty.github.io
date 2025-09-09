@@ -70,3 +70,7 @@ kramdown:
   hard_wrap         : false
   footnote_nr       : 1
   show_warnings     : false
+
+# content
+  title: [Michael]
+description: [personal website]
