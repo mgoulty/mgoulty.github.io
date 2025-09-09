@@ -1,5 +1,5 @@
 # Where things are
-remote_theme: pages-themes/minimal@v0.2.0
+
 source              : .
 destination         : ./_site
 collections_dir     : .
@@ -30,7 +30,7 @@ unpublished         : false
 
 # Plugins
 whitelist           : []
-plugins             : [jekyll-remote-theme]
+plugins             : []
 
 # Conversion
 markdown            : kramdown
