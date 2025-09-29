@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Michael Goulty — AI Safety, Ethics & Writing</title>
+  <meta name="description" content="Portfolio of Michael Goulty — AI safety/alignment dissertation, AI content writing, and AI ethics research." />
+  <link rel="canonical" href="https://example.com/" />
+
+  <!-- Tailwind CDN for dev. For production, compile Tailwind to remove unused CSS. -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Open Graph & Twitter -->
+  <meta property="og:title" content="Michael Goulty — AI Safety, Ethics & Writing" />
+  <meta property="og:description" content="AI alignment dissertation, applied AI content writing, and AI ethics research." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com/" />
+  <meta property="og:image" content="https://example.com/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Michael Goulty — AI Safety, Ethics & Writing" />
+  <meta name="twitter:description" content="AI alignment, AI content, AI ethics." />
+  <meta name="twitter:image" content="https://example.com/og-image.jpg" />
+
+  <link rel="icon" href="/favicon.ico" />
+
+  <style>
+    /* Fast system font stack */
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+    /* Visible focus for keyboard users */
+    :focus-visible { outline: 2px solid #6366f1; outline-offset: 3px; }
+    /* Respect reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      * { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+    }
+  </style>
+
+  <!-- JSON-LD Person schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Michael Goulty",
+    "url": "https://example.com/",
+    "jobTitle": "Researcher & Writer",
+    "knowsAbout": ["AI Safety", "AI Alignment", "AI Ethics", "Political Theory"],
+    "sameAs": [
+      "https://github.com/yourhandle",
+      "https://www.linkedin.com/in/yourhandle/",
+      "https://x.com/yourhandle",
+      "https://innersite.substack.com/"
+    ]
+  }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <!-- Skip link -->
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 bg-white text-slate-900 px-3 py-2 rounded shadow">Skip to content</a>
+
+  <!-- Header -->
+  <header class="bg-white/80 backdrop-blur-lg shadow-sm sticky top-0 z-50">
+    <nav class="container mx-auto px-6 py-4 flex justify-between items-center" aria-label="Primary">
+      <a href="/" class="text-2xl font-bold text-slate-900">Michael</a>
+
+      <button id="menuBtn" class="md:hidden p-2 rounded focus:ring-2 focus:ring-indigo-500" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/></svg>
+      </button>
+
+      <ul class="hidden md:flex items-center gap-6">
+        <li><a href="#about" class="nav-link text-slate-700 hover:text-indigo-600">About</a></li>
+        <li><a href="#projects" class="nav-link text-slate-700 hover:text-indigo-600">Projects</a></li>
+        <li><a href="#writing" class="nav-link text-slate-700 hover:text-indigo-600">Writing</a></li>
+        <li><a href="#contact" class="nav-link text-slate-700 hover:text-indigo-600">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="md:hidden hidden border-t border-slate-200 bg-white">
+      <ul class="container mx-auto px-6 py-4 space-y-3">
+        <li><a href="#about" class="block py-2">About</a></li>
+        <li><a href="#projects" class="block py-2">Projects</a></li>
+        <li><a href="#writing" class="block py-2">Writing</a></li>
+        <li><a href="#contact" class="block py-2">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main id="main" class="container mx-auto px-6 py-12 md:py-20">
+    <!-- Hero -->
+    <section class="text-center" aria-labelledby="hero-heading">
+      <div class="max-w-3xl mx-auto">
+        <h1 id="hero-heading" class="text-4xl md:text-6xl font-bold text-slate-900 mb-4">Michael Goulty</h1>
+        <p class="text-lg text-slate-600 mb-8">
+          Researcher & writer focused on <span class="font-medium">AI safety/alignment, AI ethics, and applied AI content</span>. I turn complex ideas into clear outputs—papers, talks, and practical resources.
+        </p>
+        <div class="flex gap-4 justify-center">
+          <a href="#projects" class="bg-indigo-600 text-white font-medium py-3 px-6 rounded-lg hover:bg-indigo-700 transition shadow">View Projects</a>
+          <a href="#contact" class="border border-slate-300 text-slate-800 font-medium py-3 px-6 rounded-lg hover:bg-slate-100 transition">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-20 md:py-28" aria-labelledby="about-heading">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <!-- Vector portrait placeholder (abstract) -->
+        <div class="bg-white rounded-lg shadow-md p-0">
+          <svg viewBox="0 0 600 400" class="w-full h-80 rounded-lg" role="img" aria-label="Abstract vector portrait placeholder">
+            <defs>
+              <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0" stop-color="#EEF2FF"/>
+                <stop offset="1" stop-color="#E0E7FF"/>
+              </linearGradient>
+            </defs>
+            <rect width="600" height="400" fill="url(#g1)"/>
+            <circle cx="180" cy="180" r="80" fill="#A5B4FC" opacity="0.6"/>
+            <circle cx="300" cy="140" r="60" fill="#818CF8" opacity="0.6"/>
+            <circle cx="420" cy="200" r="90" fill="#C7D2FE" opacity="0.6"/>
+            <rect x="90" y="260" width="420" height="16" rx="8" fill="#4338CA" opacity="0.25"/>
+            <rect x="140" y="290" width="320" height="10" rx="5" fill="#4338CA" opacity="0.15"/>
+          </svg>
+        </div>
+
+        <div>
+          <h2 id="about-heading" class="text-3xl font-bold text-slate-900 mb-4">About</h2>
+          <p class="text-slate-700 mb-4">
+            I work on the theory and practice of aligning advanced AI systems with human values, and the ethical trade-offs that arise in real deployments. My outputs range from research articles to applied writing and teaching resources.
+          </p>
+          <p class="text-slate-700">
+            Recent focus: failure modes in alignment under incommensurable values, governance trade-offs, and communicating technical topics to non-specialists.
+          </p>
+          <div class="mt-6">
+            <a href="/MichaelGoulty-CV.pdf" class="inline-flex items-center gap-2 text-indigo-700 hover:underline">
+              <span aria-hidden="true">📄</span> Download CV (PDF)
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-20" aria-labelledby="projects-heading">
+      <div class="text-center mb-12">
+        <h2 id="projects-heading" class="text-3xl font-bold text-slate-900">Projects</h2>
+        <p class="text-slate-600 mt-2">Selected work in AI research, applied content, and ethics.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- AI Alignment Dissertation -->
+        <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:-translate-y-1 transition" aria-labelledby="p1-title">
+          <!-- Inline SVG visual -->
+          <svg viewBox="0 0 800 320" class="w-full h-48" role="img" aria-label="Abstract graph-like alignment visual">
+            <rect width="800" height="320" fill="#EEF2FF"/>
+            <path d="M40,260 C160,220 240,80 360,110 C480,140 560,260 680,200" fill="none" stroke="#6366F1" stroke-width="6" stroke-linecap="round"/>
+            <circle cx="360" cy="110" r="6" fill="#6366F1"/>
+            <circle cx="560" cy="220" r="6" fill="#6366F1"/>
+            <rect x="40" y="40" width="140" height="16" rx="8" fill="#A5B4FC" opacity="0.6"/>
+            <rect x="40" y="66" width="100" height="10" rx="5" fill="#A5B4FC" opacity="0.4"/>
+          </svg>
+          <div class="p-6">
+            <h3 id="p1-title" class="text-xl font-bold mb-2">AI Safety & Alignment Dissertation</h3>
+            <p class="text-slate-600 mb-4">
+              A short dissertation (~4,000 words) on whether AI alignment differs fundamentally from aligning human institutions under incommensurable values.
+            </p>
+            <div class="flex flex-wrap gap-4">
+              <a href="/projects/alignment" class="text-indigo-700 font-medium hover:underline">Overview</a>
+              <a href="/downloads/alignment-dissertation.pdf" class="text-indigo-700 font-medium hover:underline">Download PDF</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- AI Content Writer -->
+        <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:-translate-y-1 transition" aria-labelledby="p2-title">
+          <!-- Inline SVG visual -->
+          <svg viewBox="0 0 800 320" class="w-full h-48" role="img" aria-label="Abstract page and cursor visual">
+            <rect width="800" height="320" fill="#F8FAFC"/>
+            <rect x="120" y="60" width="440" height="200" rx="12" fill="#E2E8F0"/>
+            <rect x="150" y="90" width="380" height="14" rx="7" fill="#6366F1" opacity="0.75"/>
+            <rect x="150" y="120" width="320" height="10" rx="5" fill="#6366F1" opacity="0.45"/>
+            <rect x="150" y="146" width="300" height="10" rx="5" fill="#6366F1" opacity="0.35"/>
+            <polygon points="620,110 700,210 640,200 630,260" fill="#A5B4FC"/>
+          </svg>
+          <div class="p-6">
+            <h3 id="p2-title" class="text-xl font-bold mb-2">AI Content Writer</h3>
+            <p class="text-slate-600 mb-4">
+              Research-driven AI content: technical explainers, summaries, educational materials, and accessible writing for broad audiences.
+            </p>
+            <div class="flex flex-wrap gap-4">
+              <a href="/projects/ai-content" class="text-indigo-700 font-medium hover:underline">Case Studies</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- AI Ethics Research -->
+        <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:-translate-y-1 transition" aria-labelledby="p3-title">
+          <!-- Inline SVG visual -->
+          <svg viewBox="0 0 800 320" class="w-full h-48" role="img" aria-label="Abstract scales and network visual">
+            <rect width="800" height="320" fill="#EFF6FF"/>
+            <g opacity="0.9">
+              <line x1="180" y1="90" x2="620" y2="90" stroke="#6366F1" stroke-width="6" stroke-linecap="round"/>
+              <circle cx="240" cy="180" r="28" fill="#A5B4FC"/>
+              <circle cx="560" cy="180" r="28" fill="#A5B4FC"/>
+              <line x1="400" y1="90" x2="240" y2="180" stroke="#818CF8" stroke-width="4"/>
+              <line x1="400" y1="90" x2="560" y2="180" stroke="#818CF8" stroke-width="4"/>
+            </g>
+            <rect x="60" y="40" width="120" height="14" rx="7" fill="#6366F1" opacity="0.5"/>
+          </svg>
+          <div class="p-6">
+            <h3 id="p3-title" class="text-xl font-bold mb-2">AI Ethics Research</h3>
+            <p class="text-slate-600 mb-4">
+              Essays and analyses on fairness, governance trade-offs, and moral risk in AI deployment and policy.
+            </p>
+            <div class="flex flex-wrap gap-4">
+              <a href="/projects/ai-ethics" class="text-indigo-700 font-medium hover:underline">Read More</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Writing -->
+    <section id="writing" class="py-20 border-t border-slate-200" aria-labelledby="writing-heading">
+      <div class="max-w-3xl mx-auto">
+        <h2 id="writing-heading" class="text-3xl font-bold text-slate-900 mb-6">Writing</h2>
+        <ul class="space-y-6">
+          <li>
+            <a href="/downloads/alignment-dissertation.pdf" class="text-indigo-700 hover:underline">AI Safety & Alignment Dissertation (2025)</a>
+            <p class="text-slate-600">Investigates how alignment failure modes compare with human institutional conflicts under incommensurable values (with Russell, Rawls, Raz).</p>
+          </li>
+          <li>
+            <a href="/projects/ai-content" class="text-indigo-700 hover:underline">Applied AI Content Writing</a>
+            <p class="text-slate-600">Selected articles, explainers, and educational notes crafted with and about AI tools for clarity and reach.</p>
+          </li>
+          <li>
+            <a href="/projects/ai-ethics" class="text-indigo-700 hover:underline">Essays in AI Ethics</a>
+            <p class="text-slate-600">On fairness, governance, and decision-making under uncertainty in real-world AI systems.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer / Contact -->
+  <footer id="contact" class="bg-slate-900 text-white">
+    <div class="container mx-auto px-6 py-12">
+      <h2 class="text-2xl font-bold mb-4">Contact</h2>
+      <p class="mb-6">
+        Email: <a href="mailto:credits89.recent@icloud.com" class="text-indigo-300 underline">credits89.recent@icloud.com</a>
+      </p>
+      <div class="flex gap-6">
+        <a href="https://github.com/yourhandle" aria-label="GitHub" class="hover:text-indigo-300 transition" target="_blank" rel="noopener">
+          <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.478 2 12a10 10 0 006.839 9.49c.5.092.682-.217.682-.482l-.014-1.703c-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.522-4.477-10-10-10z" clip-rule="evenodd"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/yourhandle/" aria-label="LinkedIn" class="hover:text-indigo-300 transition" target="_blank" rel="noopener">
+          <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0H5C2.239 0 0 2.239 0 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5V5c0-2.761-2.238-5-5-5zM8 19H5V8h3v11zM6.5 6.732A1.75 1.75 0 116.5 3.2a1.75 1.75 0 010 3.532zM20 19h-3v-5.604c0-3.368-4-3.113-4 0V19h-3V8h3v1.765C14.396 7.179 20 6.988 20 12.241V19z"/></svg>
+        </a>
+        <a href="https://x.com/yourhandle" aria-label="Twitter/X" class="hover:text-indigo-300 transition" target="_blank" rel="noopener">
+          <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="https://innersite.substack.com/?utm_source=global-search" aria-label="Substack" class="hover:text-indigo-300 transition" target="_blank" rel="noopener">
+          <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>
+        </a>
+      </div>
+      <p class="mt-8 text-sm text-slate-400">© <span id="year"></span> Michael Goulty. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Minimal JS: mobile menu + active link + year -->
+  <script>
+    // Mobile menu
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn?.addEventListener('click', () => {
+      const expanded = menuBtn.getAttribute('aria-expanded') === 'true';
+      menuBtn.setAttribute('aria-expanded', String(!expanded));
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Scrollspy (desktop nav)
+    const links = document.querySelectorAll('.nav-link');
+    const sections = [...links].map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+    function setActive() {
+      let idx = sections.findIndex(s => s.getBoundingClientRect().top > 120) - 1;
+      if (idx < 0) idx = sections.length - 1;
+      links.forEach(l => l.removeAttribute('aria-current'));
+      if (sections[idx]) {
+        const id = '#' + sections[idx].id;
+        const active = [...links].find(l => l.getAttribute('href') === id);
+        active?.setAttribute('aria-current', 'page');
+      }
+    }
+    window.addEventListener('scroll', setActive, { passive: true });
+    setActive();
+  </script>
+</body>
+</html>
